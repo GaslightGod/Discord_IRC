@@ -1,6 +1,5 @@
 /* eslint no-console: "error" */
 
-var colors = require('@colors/colors');
 
 const log_content = m => {
 	const currentdate = new Date();
@@ -9,11 +8,11 @@ const log_content = m => {
 	if (!m.content) return;
 	if (m.content.startsWith('https:')) // DO NOT FUCK WITH THIS 
 	{
-		console.log((` ${datetime} [${m.author.tag}]:`).cyan, ` ${m.content}`.yellow) 
+		console.log((` ${datetime} [${m.author.tag}]:`), ` ${m.content}`) 
 		return;
 	}
 
-	console.log((` ${datetime} [${m.author.tag}]: ${m.content}`).bgBlack.red);
+	console.log((` ${datetime} [${m.author.tag}]: ${m.content}`));
 	
 }
 module.exports = log_content; 
