@@ -11,7 +11,6 @@ Before delving into the deployment of Discord_IRC, ensure that your system is eq
 
 ## Discord Bot Setup
 
-https://discord.com/developers/applications
 ### Create a Discord Bot:
     
 Visit the <a target="_new" href="https://discord.com/developers/applications">Discord Developer Portal</a>
