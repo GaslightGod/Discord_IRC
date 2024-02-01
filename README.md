@@ -35,6 +35,11 @@ Visit the <a target="_new" href="https://discord.com/developers/applications">Di
         Read Message History
       Copy the generated URL and seamlessly add your bot to the server following the presented prompts.
 
+### Create a webhook in the channel you wish to send messages in
+  Within Discord, navigate to the channel setting and select integrations
+  Create a new webhook
+  Copy the webhooks URL and open it in your browser
+  
 ## Installation
 Clone the repository to your local machine:
 
