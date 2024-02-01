@@ -23,7 +23,9 @@ Visit the <a target="_new" href="https://discord.com/developers/applications">Di
     
   <div align="center">
   <img src="https://media.discordapp.net/attachments/1003507541382287503/1202622522101858304/image.png?ex=65ce2080&is=65bbab80&hm=85a16a244169c74c58b45aeae6adbbf0d79bf0cd358bd0a9192ed1757cc0a120&=&format=webp&quality=lossless&width=720&height=78" alt="Alt Text" width="600">
+    <img src="https://media.discordapp.net/attachments/1003507541382287503/1202623622615801897/image.png?ex=65ce2187&is=65bbac87&hm=8b1338b6155706a7099a8fcbe7e1393ba176b443ca35c3f1c3aaa85b6381d3d2&=&format=webp&quality=lossless&width=199&height=314" alt="Alt Text" width="600">
 </div>
+
 
 ### Invite the Bot to Your Server:
  Within the Discord Developer Portal, navigate to the "OAuth2" section.
