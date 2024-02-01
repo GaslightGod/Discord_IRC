@@ -55,6 +55,10 @@ Install the essential Node.js modules:
 ```bash
 npm install
 ```
+Install Discord.js
+```bash
+npm install discord.js@12.5.1
+```
 
 ## Configuration
 1. Open the **loggers/config.js** file.
@@ -74,6 +78,12 @@ const hook = new Discord.WebhookClient('ID', 'Webhook_token');
 ```js
 { avatarURL: 'Image_URL', username: 'username' });
 ```
+6. Access the **log_content.js** file and locate the following line
+```js
+if (m.author.tag === 'NAMETAG GOES HERE') return;
+```
+This is case sensitive to what you set your username to, make sure they match!
+
 ## Usage
 To run the Discord IRC bot, follow these steps:
 
