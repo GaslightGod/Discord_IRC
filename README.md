@@ -21,8 +21,8 @@ Visit the <a target="_new" href="https://discord.com/developers/applications">Di
     Navigate to the "Bot" section and instantiate your bot by clicking on "Add Bot."
     Record the issued token; this token is instrumental for successful configuration.
     
-    <div align="center">
-  <img src="https://media.discordapp.net/attachments/1003507541382287503/1202622522101858304/image.png?ex=65ce2080&is=65bbab80&hm=85a16a244169c74c58b45aeae6adbbf0d79bf0cd358bd0a9192ed1757cc0a120&=&format=webp&quality=lossless&width=720&height=78" alt="Alt Text" width="400">
+  <div align="center">
+  <img src="https://media.discordapp.net/attachments/1003507541382287503/1202622522101858304/image.png?ex=65ce2080&is=65bbab80&hm=85a16a244169c74c58b45aeae6adbbf0d79bf0cd358bd0a9192ed1757cc0a120&=&format=webp&quality=lossless&width=720&height=78" alt="Alt Text" width="600">
 </div>
 
 ### Invite the Bot to Your Server:
