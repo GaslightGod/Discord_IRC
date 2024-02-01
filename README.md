@@ -43,13 +43,13 @@ npm install
 ```
 
 ## Configuration
-    1. Open the **loggers/config.js** file.
+1. Open the **loggers/config.js** file.
     
-    2. Replace '**Bot_Token**' with the unique token assigned to your Discord bot.
+2. Replace '**Bot_Token**' with the unique token assigned to your Discord bot.
     
-    3. Specify '**Channel_id**' with the Discord channel ID designated for bot monitoring.
+3. Specify '**Channel_id**' with the Discord channel ID designated for bot monitoring.
     
-    4. Customize Username and Image URL:
+4. Customize Username and Image URL:
        Access the **Logger.js** file and locate the following instantiation:
   ```js 
 const hook = new Discord.WebhookClient('ID', 'Webhook_token');
