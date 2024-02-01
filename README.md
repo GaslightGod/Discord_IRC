@@ -1,5 +1,7 @@
 # Discord_IRC
-
+<div align="center">
+  <img src="https://cdn.discordapp.com/attachments/1003507541382287503/1202621750136021023/image.png?ex=65ce1fc8&is=65bbaac8&hm=83bcf2e79e2e8a46bd19200ebc39d3d96e2c98fdcdd176629c8c848d58c1387c&" alt="Alt Text" width="400">
+</div>
 ## Introduction
 
 Discord_IRC is an advanced Discord IRC (Internet Relay Chat) bot designed to intelligently monitor and log messages within a specified channel. 
@@ -60,3 +62,20 @@ const hook = new Discord.WebhookClient('ID', 'Webhook_token');
 ```js
 const hook = new Discord.WebhookClient('ID', 'Webhook_token', { username: 'YourUsername', avatarURL: 'YourImageURL' });
 ```
+## Usage
+To run the Discord IRC bot, follow these steps:
+
+1. Open a terminal and navigate to the project directory:
+
+```bash 
+cd path/to/Discord_IRC
+```
+2. Run the bot:
+```bash
+node Logger.js
+```
+Additionally, run the Discord IRC:
+```bash
+node Discord_IRC.js
+```
+3. The bot will now be active, monitoring the specified Discord channel.
