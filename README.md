@@ -58,16 +58,15 @@ npm install
     
 3. Specify '**Channel_id**' with the Discord channel ID designated for bot monitoring.
     
-4. Customize Username and Image URL:
-       Access the **Logger.js** file and locate the following instantiation:
+4. Add Webhook Token and ID:
+       Access the **Discord_IRC.js** file and locate the following instantiation:
   ```js 
 const hook = new Discord.WebhookClient('ID', 'Webhook_token');
 ```
   Replace **'ID'** & **'Webhook_token'** with the relative information
-
-  Personalize the username and avatarURL properties as required:
+5. Personalize the username and avatarURL properties as required:
 ```js
-const hook = new Discord.WebhookClient('ID', 'Webhook_token', { username: 'YourUsername', avatarURL: 'YourImageURL' });
+{ avatarURL: 'Image_URL', username: 'username' });
 ```
 ## Usage
 To run the Discord IRC bot, follow these steps:
@@ -86,3 +85,6 @@ Additionally, run the Discord IRC:
 node Discord_IRC.js
 ```
 3. The bot will now be active, monitoring the specified Discord channel.
+
+## Issues
+If you need any help open an issue and let me know what is happening and I'll get back in a timely manner.
