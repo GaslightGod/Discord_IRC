@@ -64,6 +64,7 @@ npm install
 const hook = new Discord.WebhookClient('ID', 'Webhook_token');
 ```
   Replace **'ID'** & **'Webhook_token'** with the relative information
+  
 5. Personalize the username and avatarURL properties as required:
 ```js
 { avatarURL: 'Image_URL', username: 'username' });
