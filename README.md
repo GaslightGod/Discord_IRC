@@ -13,12 +13,13 @@ Before delving into the deployment of Discord_IRC, ensure that your system is eq
 
 https://discord.com/developers/applications
 ### Create a Discord Bot:
-    Visit the <a target="_new" href="https://discord.com/developers/applications">Discord Developer Portal</a>
+    
+Visit the <a target="_new" href="https://discord.com/developers/applications">Discord Developer Portal</a>
     Initiate the creation of a new application, providing it with a meaningful name.
     Navigate to the "Bot" section and instantiate your bot by clicking on "Add Bot."
     Record the issued token; this token is instrumental for successful configuration.
 ### Invite the Bot to Your Server:
-      Within the Discord Developer Portal, navigate to the "OAuth2" section.
+ Within the Discord Developer Portal, navigate to the "OAuth2" section.
       Configure the "OAuth2 URL Generator" by selecting the "bot" scope.
       Specify the required permissions for your bot:
         Read Messages
