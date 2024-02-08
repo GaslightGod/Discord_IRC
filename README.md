@@ -103,4 +103,4 @@ node Discord_IRC.js
 3. The bot will now be active, monitoring the specified Discord channel.
 
 ## Issues
-If you need any help open an issue and let me know what is happening and I'll get back in a timely manner.
+If you need any help, open an issue and let me know what is happening. I'll get back in a timely manner.
